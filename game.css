@@ -1,0 +1,52 @@
+body
+{
+	background-image: url('87252.jpg');
+	text-align: center;
+}
+
+.login_div1 , .login_div2{
+		background: #e5ffff;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: #e5ffff;
+border-radius: 10px;
+border-top: 10px solid #82ada9;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.gridWrap {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 100%;
+  }
+  .gridCol {
+	padding: 10px;
+	background: #f3ffe0;
+  }
+  @media only screen and (max-width: 768px) {
+	.gridWrap { grid-template-columns: 100%; }
+  }
+   
+
+
